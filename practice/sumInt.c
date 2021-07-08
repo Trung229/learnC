@@ -2,15 +2,8 @@
 
 int main()
 {
-   int i = 1;
-   int s = 1;
-   for(;;){
-       if(i>5){
-           break;
-       }
-       s+=i;
-       i++;
-   }
-   printf("%d",s);
+  char s[1];
+  gets(s);
+  puts(s);
     return 0;
 }
